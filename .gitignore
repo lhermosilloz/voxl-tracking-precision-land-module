@@ -1,0 +1,14 @@
+# Local backups produced by the install scripts
+*.bak
+*.bak.*
+
+# Editor / OS noise
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc

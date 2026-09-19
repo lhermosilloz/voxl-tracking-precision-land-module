@@ -1,0 +1,13 @@
+[Unit]
+Description=VOXL Streamer - Tracking Camera
+After=voxl-camera-server.service
+Wants=voxl-camera-server.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/voxl-streamer --standalone --port 8901 -i tracking_leg_misp_encoded
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
