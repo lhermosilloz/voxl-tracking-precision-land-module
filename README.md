@@ -7,6 +7,22 @@ The camera is mounted on the landing leg (`tracking_leg`) and streams a
 downward view over RTSP, which the precision-landing stack consumes as its
 video source.
 
+## Hardware
+
+The sensor is an **AR0144**, connected with the **D0014-M0173** flex cable to
+the VOXL camera port used for `camera_id: 1`.
+
+<img src="docs/images/ar0144-image-sensor.png" alt="AR0144 image sensor" width="216">
+
+*AR0144 image sensor*
+
+<img src="docs/images/d0014-m0173-wiring.jpg" alt="D0014-M0173 wiring" width="640">
+
+*Plug the camera in as shown - D0014-M0173*
+
+Wire it up before doing anything else - see [docs/hardware.md](docs/hardware.md)
+for cable orientation and how to verify the board sees the camera.
+
 ## What's here
 
 | Path | Purpose |
