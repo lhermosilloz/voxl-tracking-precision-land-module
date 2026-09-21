@@ -25,6 +25,6 @@ With the board powered and `voxl-camera-server` running:
 voxl-list-pipes
 ```
 
-The `tracking_leg` pipes should appear once the camera is configured - see
+The `tracking_down` pipes should appear once the camera is configured - see
 [camera-configuration.md](camera-configuration.md). If nothing shows up, the
 camera is either not wired correctly or not enabled in the config.

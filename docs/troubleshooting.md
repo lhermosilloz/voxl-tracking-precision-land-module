@@ -1,15 +1,15 @@
 # Troubleshooting
 
-## The `tracking_leg_misp_encoded` pipe doesn't exist
+## The `tracking_down_misp_encoded` pipe doesn't exist
 
 ```bash
 voxl-list-pipes
 ```
 
-If `tracking_leg_misp_encoded` is missing:
+If `tracking_down_misp_encoded` is missing:
 
 - Is the camera server running? `systemctl status voxl-camera-server`
-- Is the entry applied and enabled? Check that `tracking_leg` appears in
+- Is the entry applied and enabled? Check that `tracking_down` appears in
   `/etc/modalai/voxl-camera-server.conf` with `"enabled": true`.
 - Is `misp_venc_enable` still `true`? Without it the MISP path produces frames
   but no encoded pipe.

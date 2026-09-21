@@ -1,7 +1,7 @@
 # Streaming
 
 The tracking camera is streamed over RTSP by `voxl-streamer`, reading the
-`tracking_leg_misp_encoded` pipe.
+`tracking_down_misp_encoded` pipe.
 
 ## Test it first
 
@@ -14,7 +14,7 @@ Before installing anything, confirm the pipeline works in the foreground:
 which runs:
 
 ```bash
-voxl-streamer --standalone --port 8901 -i tracking_leg_misp_encoded
+voxl-streamer --standalone --port 8901 -i tracking_down_misp_encoded
 ```
 
 Pass a different port or pipe as arguments: `./scripts/test-stream.sh 8902 some_pipe`.

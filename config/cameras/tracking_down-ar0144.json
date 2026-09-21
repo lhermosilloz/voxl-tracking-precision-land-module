@@ -1,6 +1,6 @@
 {
     "type": "ar0144",
-    "name": "tracking_leg",
+    "name": "tracking_down",
     "enabled": true,
     "camera_id": 1,
     "fps": 30,

@@ -3,7 +3,7 @@
 Bring-up notes, camera configuration and service files for running an **AR0144
 tracking camera** on a VOXL-based platform and exposing it as an RTSP stream.
 
-The camera is mounted on the landing leg (`tracking_leg`) and streams a
+The camera is mounted on the landing leg (`tracking_down`) and streams a
 downward view over RTSP, which the precision-landing stack consumes as its
 video source.
 

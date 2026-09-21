@@ -7,7 +7,7 @@
 set -euo pipefail
 
 PORT="${1:-8901}"
-PIPELINE="${2:-tracking_leg_misp_encoded}"
+PIPELINE="${2:-tracking_down_misp_encoded}"
 
 if [ ! -e "/run/mpa/$PIPELINE" ]; then
     echo "warning: pipe /run/mpa/$PIPELINE does not exist yet." >&2
